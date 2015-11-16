@@ -37,14 +37,22 @@
 			<string>entity.name.type</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>Floats are always decimal</string>
 			<key>match</key>
-			<string>\d+(\.\d+)?</string>
+			<string>\b([0-9]+\.[0-9]+([eE][+-]?[0-9]+)?|[0-9]+[eE][+-]?[0-9]+)\b</string>
+			<key>name</key>
+			<string>constant.numeric.float.emfrp</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b([0-9]+|0([xX][0-9a-fA-F]+|[oO][0-7]+))\b</string>
 			<key>name</key>
 			<string>constant.numeric.emfrp</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[A-Z][a-zA-Z_]*</string>
+			<string>\b([A-Z][a-zA-Z_]*)</string>
 			<key>name</key>
 			<string>constant.other.emfrp</string>
 		</dict>
