@@ -25,7 +25,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(input|output|initialize|node|data|func|infix|infixl|infixr|if|then|else|match|as|type|ctype|lazy|init|skip|continue|@|-\&gt;|=&gt;)\b</string>
+			<string>\b(module|material|in|out|use|node|data|func|infix|infixl|infixr|if|then|else|match|as|type|ctype|from|init|skip|continue|@|-\&gt;|=&gt;)\b</string>
 			<key>name</key>
 			<string>keyword.control.emfrp</string>
 		</dict>
